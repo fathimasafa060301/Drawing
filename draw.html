@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drawing App</title>
+    <link rel="stylesheet" href="draw.css">
+</head>
+<body>
+    <section class="container">
+        <div id="toolbar">
+            <div class="items">
+                <h1>Draw</h1>
+                <label for="stroke">Stroke</label>
+                <br>
+                <input type="color" id="stroke" name="stroke">
+                <br>
+                <br>
+                <label for="lineWidth">LineWidth</label>
+                <br>
+                <input type="number" id="lineWidth" name="lineWidth" value="5">
+                <br>
+                <button id="clear">Clear</button>
+            </div>
+        </div>
+        <div class="DrawingBoard">
+            <canvas id="board"></canvas>
+        </div>
+    </section>
+    <script src="draw.js"></script>
+</body>
+</html>

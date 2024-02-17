@@ -1,0 +1,65 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: auto;
+}
+
+.container{
+    width: 100%;
+    display: flex;
+    /* flex-direction: row; */
+    /* background-color: rgb(72, 88, 88); */
+    height: 742px;
+}
+
+#toolbar{
+    width: 20%;
+    background-color: rgb(76, 158, 130);
+    margin: 10px 10px;
+    text-align: center;
+}
+.items{
+    /* background-color: aqua; */
+    margin: 0 auto;
+    width: 160px;
+    /* height: 690px; */
+    margin-top: 65%;
+}
+
+.items h1{
+    color: white;
+    font-size: xx-large;
+    margin-top: 10%;
+    padding: 20px;
+}
+
+.items label{
+    color: white;
+    font-size: x-large;
+}
+.items input{
+    width: 45px;
+    height: 30px;
+}
+
+button{
+    border: none;
+    color: white;
+    border-radius: 10px;
+    padding: 10px 10px;
+    background-color: #4e3457;
+    margin-top: 30px;
+    width: 100px;
+    cursor: pointer;
+}
+/* .DrawingBoard{
+    width: 80%;
+    margin: 10px ;
+} */
+
